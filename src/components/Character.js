@@ -20,7 +20,7 @@ const Character = () => {
       setCharacterInfo(ch);
       setLocationOriginEpisode({ location: ch.location.name, origin: ch.origin.name, episodeCount: ch.episode.length })
     }
-  }, [characters.results]);
+  }, [characters]);
 
 
   const BackHome = () => {
