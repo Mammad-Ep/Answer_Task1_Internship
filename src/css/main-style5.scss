@@ -1,0 +1,237 @@
+.img-slider {
+    margin: 30px auto;
+    width: 80%;
+    height: 400px;
+    background-image: url("../images/RickfendingYourMort.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 0.9rem #000;
+}
+
+.search-box {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.search-box input {
+    margin: 0 auto;
+    width: inherit;
+    height: 50px;
+    padding: 0 10px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-box input:focus {
+    border-color: orange;
+}
+
+.search-box button {
+    width: 130px;
+    height: 40px;
+    margin: 3px 10px;
+    background-color: rgb(9, 140, 140);
+    border: none;
+    border-radius: 7px;
+    color: #eceaea;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.rickmorty-container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.characters-filter{
+    margin: 20px 0;
+    order: 2;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgb(163, 229, 248);
+}
+
+.page-filter div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-filter div button{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(211, 251, 151);
+}
+
+.page-filter div span{
+    background-color: blue;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+
+select:not(:-internal-select-author-button) {
+    width: 120px;
+    height: 25px;
+    margin: 3px;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-rtl-ordering: logical;
+    color: fieldtext;
+    background-color: field;
+    cursor: default;
+    outline: none;
+    white-space: pre;
+    border-width: 1px;
+    border-style: solid;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 3px;
+    color: blue;
+    font-weight: 600;
+}
+
+.character-box {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.character-img {
+    height: 200px;
+}
+
+.character-box div:first-child img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.character-box div:last-child {
+    margin: 0 10px;
+}
+
+.character-box:hover {
+    box-shadow: 0.1rem 0.1rem 0.5rem #212121;
+}
+
+.characters-container {
+    width: 80%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: grab;
+}
+
+.character-box div:nth-child(2) h2 {
+    color: gray;
+}
+
+.character-box div:nth-child(2) div {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.character-box div:nth-child(2) p span {
+    color: gray;
+}
+
+.character-box a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: darkblue;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.character-details {
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.character-details img {
+    width: 400px;
+    height: auto;
+    border: 3px solid yellowgreen;
+    padding: 7px;
+    display: block;
+    margin: auto;
+}
+
+.character-details h2 {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 3px solid green;
+    width: 414px;
+    background-color: rgb(130, 229, 130);
+}
+
+.character-details div:first-of-type {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.character-details div:nth-of-type(3) {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.character-details div p{
+    font-size: 1.4rem;
+}
+
+.character-details div p span {
+    color: #858484;
+}
+
+.return-characters{
+    width: 130px;
+    height: 35px;
+    background-color: gold;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.hr-morty{
+    width: 70%;
+    border: none;
+    margin: 20px auto;
+    outline: none;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #6d6b6b;
+}
